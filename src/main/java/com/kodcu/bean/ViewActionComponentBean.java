@@ -14,8 +14,7 @@ import javax.faces.bean.ViewScoped;
  */
 
 @ManagedBean(name="viewActionComponentBean")
-//@RequestScoped
-@ViewScoped
+@RequestScoped
 public class ViewActionComponentBean {
 
     private int musteriID;
