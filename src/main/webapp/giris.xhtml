@@ -19,7 +19,7 @@ and open the template in the editor.
                      value="#{viewActionComponentBean.kullaniciAdi}"/>
         <f:viewParam id="iki" name="yetki" required="true" requiredMessage="Yetki bilgisi zorunludur"
                      value="#{viewActionComponentBean.yetki}"/>
-        <f:viewAction action="#{viewActionComponentBean.kontrolEt}" phase="INVOKE_APPLICATION" onPostback="true"/>
+        <f:viewAction action="#{viewActionComponentBean.kontrolEt}" phase="UPDATE_MODEL_VALUES" onPostback="true"/>
     </f:metadata>
 </h:head>
 <h:body style="padding: 5px;">
